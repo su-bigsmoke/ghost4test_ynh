@@ -1,0 +1,16 @@
+[Unit]
+Description=__APP__ systemd service 
+Documentation=https://docs.ghost.org
+
+[Service]
+Type=simple
+User=__APP__
+Group=__APP__
+WorkingDirectory=__FINALPATH__
+Environment="__YNH_NODE_LOAD_PATH__"
+Environment="NODE_ENV=production"
+ExecStart=__YNH_NODE__ index.js run
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

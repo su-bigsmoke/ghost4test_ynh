@@ -4,8 +4,9 @@
     "packaging_format": 1,
     "description": {
         "en": "Just a blogging platform",
+        "fr": "Plateforme de blogging"
     },
-    "version": "4.4.0",
+    "version": "3.41.8~ynh1",
     "url": "https://ghost.org/",
     "license": "MIT",
     "maintainer": {
@@ -27,6 +28,7 @@
                 "type": "domain",
                 "ask": {
                     "en": "Choose a domain for Ghost",
+                    "fr": "Choisissez un domaine pour Ghost"
                 },
                 "example": "domain.org"
             },
@@ -35,6 +37,7 @@
                 "type": "path",
                 "ask": {
                     "en": "Choose a path for Ghost",
+                    "fr": "Choisissez un chemin pour Ghost"
                 },
                 "example": "/blog",
                 "default": "/blog"
@@ -44,6 +47,7 @@
                 "type": "boolean",
                 "ask": {
                     "en": "Is it a public application?",
+                    "fr": "Est-ce une application publique ?"
                 },
                 "default": true
             }
